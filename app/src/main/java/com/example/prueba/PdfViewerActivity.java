@@ -47,7 +47,7 @@ public class PdfViewerActivity extends AppCompatActivity {
 
             // Crear una instancia de PdfViewerFragment con las opciones
             PdfViewerFragment pdfFragment = PdfViewerFragment.newInstance(stylingOptions);
-            pdfFragment.setDocumentUri(uripdf);
+            //pdfFragment.setDocumentUri(uripdf);
 
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.pdf_container, pdfFragment);
